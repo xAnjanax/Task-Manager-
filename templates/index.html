@@ -2,12 +2,12 @@
 
 {% block head %}
 
-<title>Task Master</title>
+<title>Task Manager</title>
 
 {% endblock %}
 
 {% block body %}
-<h1 style="text-align: center;">Task Master</h1>
+<h1 style="text-align: center;">✍️Task Manager📋</h1>
 
 <!-- If there are no entries, prompt user to create new tasks -->
 {% if tasks|length < 1 %} 
@@ -18,8 +18,8 @@
 
 <table>
     <tr>
-        <th>Task</th>
-        <th>Added</th>
+        <th>Task to be Done</th>
+        <th>Date Added</th>
         <th>Actions</th>
     </tr>
     {% for task in tasks %}
