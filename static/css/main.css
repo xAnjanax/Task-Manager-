@@ -3,10 +3,12 @@ body{
     font-family: sans-serif; 
     background-color: lightgoldenrodyellow;
 
-    background-image: url('path_to_your_image.jpg'); 
+    background-image: url('https://media.istockphoto.com/id/1401497427/photo/multiracial-team-at-work-writing-ideas-on-sticky-notes-on-the-glass-wall.jpg?s=612x612&w=0&k=20&c=hf6SKEBqll6l0nepGMlC7FlyNMdc57hW9cDqSfKzhFE='); 
     background-size: cover;  
     background-position: center;  
     background-repeat: no-repeat;  
+    margin: 0; 
+    height: 80vh;
 }
 
 .content {
@@ -16,6 +18,16 @@ body{
 
 h1 {
     margin-top: 50px;
+    background-color: lightyellow;
+    width: fit-content;
+    margin-left: 540px;
+}
+
+h4 {
+    margin-top: 50px;
+    background-color: lightyellow;
+    width: fit-content;
+    margin-left: 450px;
 }
 
 table, td, th {
@@ -25,8 +37,8 @@ table, td, th {
 
 table {
     border-collapse: collapse;
-    margin-left: 300px;
-    background-color: aliceblue;
+    margin-left: 340px;
+    background-color: lightyellow;
     width: 50%;
 }
 
@@ -46,8 +58,8 @@ td {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50; 
-    color: white;  
+    background-color: lightyellow; 
+    color: black;  
     border: none; 
     padding: 10px 20px; 
     text-align: center;  
@@ -60,6 +72,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: lightseagreen; 
+    color: white;
 }
 
 #content {
